@@ -86,8 +86,41 @@ li{
 }
 
 
+
+.show-block__title{
+    margin-bottom: 40px;
+}
+.show-block__columns{
+    display: flex;
+    justify-content: center;
+}
+.show-block__column{
+    display: flex;
+    flex-direction: column;
+}
+
 .show-block{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.show-block__item{
+    margin: 10px;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.show-block__column_main .show-block__item {
+    background-image: url(../img/stand.png);    
+    width: 416px;
+    height: 540px;
+}
+
+.show-block__column_part .show-block__item {
+    background-image: url(../img/group.png);
+    width: 416px;
+    height: 258px;
 }
