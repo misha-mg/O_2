@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #162831;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1298px;
+}
+
+.title{
+   width: 550px;
+   display: flex;
+   justify-content: space-between; 
+   align-items: center;
+}
+.title h1{
+    font-size: 42px;
+}
+
+.main-menu{
+    width: 1298px;
+    height: 60px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.menu-items ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    color: white;
+    margin-left: 25px;
+}
+.menu-button button{
+    height: 36px;
+    padding: 9px 15px;
+    border-radius: 3px;
+    background-color: #018ABE;
+    color: white;
+    border: 0;
+    transition: all 0.2s;
+}
+.menu-button button:hover{
+    background-color: #0188be84;
+}
+
+
+.hero-block{
+    background-image: url(../img/hero-bg.png);
+    width: 1296px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.hero-block__subtitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    margin-top: 150px;
+}
+.hero-block__title h1{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 600;
+}
+.hero-block__subtitle img{
+    width: 28px;
+    height: 14px;
+}
+
+
+.show-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
